@@ -1,0 +1,58 @@
+{
+	"title":"Você seria um programador front-end ou back-end?",
+	"questions":[
+		{
+			"id":1,
+			"question":"Qual área você escolheria?",
+			"options":[
+				{"id":1, "name": "Programação Web", "alias": "B"},
+				{"id":2, "name": "Banco de dados", "alias": "A"},
+				{"id":3, "name": "Designer UX ou UI", "alias": "B"},
+				{"id":4, "name": "Inteligência artificial", "alias": "A"},
+				{"id":5, "name": "Cloud computing", "alias": "C"}
+			]
+		},
+		{
+			"id":2,
+			"question":"Quais linguagens você usaria?",
+			"options":[
+				{"id":1, "name":"Javascript, HTML e CSS", "alias": "B"},
+				{"id":2, "name": "Java", "alias": "A"},
+				{"id":3, "name": "Python", "alias": "C"}
+			]
+		},
+		{
+			"id":3,
+			"question":"Qual framework você utilizaria?",
+			"options":[
+				{"id":1, "name": "Spring", "alias": "A"},
+				{"id":2, "name": "Angular", "alias": "B"},
+				{"id":3, "name": "Django", "alias": "C"},
+				{"id":4, "name": "React", "alias": "B"}
+			]
+		},
+		{
+			"id":4,
+			"question":"O que te agrada mais?",
+			"options":[
+				{"id":1, "name": "Um design bem feito", "alias": "B"},
+				{"id":2, "name": "Manipular e armazenar dados", "alias": "A"},
+				{"id":3, "name": "De tudo um pouco", "alias": "C"}
+			]
+		},
+		{
+			"id":5,
+			"question":"Qual o seu maior foco?",
+			"options":[
+				{"id":1, "name": "Orientação a objetos", "alias": "A"},
+				{"id":2, "name": "Criação de layouts com HTML, CSS e Javascript", "alias": "B"},
+				{"id":3, "name": "Um pouco de todos eles", "alias": "C"}
+			]
+		}
+	],
+	"results":{
+		"A": "Você muito provavelmente seria um programador back-end",
+		"B": "Você muito provavelmente seria um programador front-end",
+		"C": "Você muito provavelmente seria um programador full-stack"
+	}
+}
